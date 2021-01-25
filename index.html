@@ -1,82 +1,72 @@
-<html xmlns="http://www.w3.org/1999/xhtml" >
+<html>
 
-  
-  
   <head>
     <title> Twitch Multi-Stream </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Webpage still breaks when resolution is below ~600 x ~700 -->
     <link rel ="stylesheet" href=" style.css ">
     <link rel ="javascript" href=" script.js ">
-  
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-
-    <script type="text/javascript">
-    $(document).ready(function(){
-        $('#button').click(function(e) {  
-            var inputvalue = $("#input").val();
-            window.location.replace(" https://player.twitch.tv/?channel="+inputvalue+"&amp;parent=quina1.github.io");
-        });
-    });
-    </script> 
-    
-     <div class="header">
-      <h1 style="color:pink; height:20%; width:100%;">Twitch Multi-Stream</h1>
-        
-       <h2><a style="color:pink; height:25%; width:100%;" href="content">Content</a></h2>
-       <h2><a style="color:pink; height:25%; width:100%;" href="ReadMe">Read Me</a></h2>
-       
-       <input type="text" value="Insert Streamer" id="input"> 
-       <button type="button" id="button"> Enter </button>
-       
-    </div>
-    
-    
-
-    
-    <div class="containerStream1">
-      <!-- First Stream -->
-      <div id="twitch-embed"></div>
-        <iframe 
-                allowfullscreen="<allowfullscreen>" 
-                width="100%"
-                height="100%"
-                src="https://player.twitch.tv/?channel=[INSERT STREAMER NAME HERE]&amp;parent=quina1.github.io">
-        </iframe>
-    </div> <!-- End containerStream1-->
 
 
-    <div class="containerChat1">
-      <iframe 
-        id="chat_embed" 
-        src="https://www.twitch.tv/embed/[INSERT STREAMER NAME HERE]/chat?parent=quina1.github.io"
-        height="100%"
-        width="100%">
-      </iframe>
-    </div>
+
+    <html xmlns="http://www.w3.org/1999/xhtml" >
+
+      <head>
+        <title> Twitch Multi-Stream </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Webpage still breaks when resolution is below ~600 x ~700 -->
+        <link rel ="stylesheet" href=" style.css ">
+        <link rel ="javascript" href=" script.js ">
+
+         <div class="header">
+          <h1 style="color:pink; height:20%; width:100%;">Twitch Multi-Stream</h1>
+           <h2><a style="color:pink; height:25%; width:100%;" href="content.html">Content</a></h2>
+           <h2><a style="color:pink; height:25%; width:100%;" href="ReadMe.html">Read Me</a></h2>
+        </div>
 
 
-    <div class="containerStream2">
-      <!-- First Stream -->
-      <div id="twitch-embed"></div>
-        <iframe 
-                allowfullscreen="<allowfullscreen>" 
-                width="100%"
-                height="100%"
-                src="https://player.twitch.tv/?channel=[INSERT STREAMER NAME HERE]&amp;parent=quina1.github.io">
-        </iframe>
-    </div> <!-- End containerStream1-->
+        <div class="containerStream1">
+          <!-- First Stream -->
+          <div id="twitch-embed"></div>
+            <iframe
+                    allowfullscreen="<allowfullscreen>"
+                    width="100%"
+                    height="100%"
+                    src="https://player.twitch.tv/?channel=[INSERT STREAMER NAME HERE]&amp;parent=quina1.github.io">
+            </iframe>
+        </div> <!-- End containerStream1-->
 
 
-    <div class="containerChat2">
-      <iframe 
-        id="chat_embed" 
-        src="https://www.twitch.tv/embed/[INSERT STREAMER NAME HERE]/chat?parent=quina1.github.io"
-        height="100%"
-        width="100%">
-      </iframe>
-    </div>
+        <div class="containerChat1">
+          <iframe
+            id="chat_embed"
+            src="https://www.twitch.tv/embed/[INSERT STREAMER NAME HERE]/chat?parent=quina1.github.io"
+            height="100%"
+            width="100%">
+          </iframe>
+        </div>
 
-    
-    
+
+        <div class="containerStream2">
+          <!-- First Stream -->
+          <div id="twitch-embed"></div>
+            <iframe
+                    allowfullscreen="<allowfullscreen>"
+                    width="100%"
+                    height="100%"
+                    src="https://player.twitch.tv/?channel=[INSERT STREAMER NAME HERE]&amp;parent=quina1.github.io">
+            </iframe>
+        </div> <!-- End containerStream1-->
+
+
+        <div class="containerChat2">
+          <iframe
+            id="chat_embed"
+            src="https://www.twitch.tv/embed/[INSERT STREAMER NAME HERE]/chat?parent=quina1.github.io"
+            height="100%"
+            width="100%">
+          </iframe>
+        </div>
+
+
+
   </head>
 </html>
