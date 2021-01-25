@@ -7,35 +7,35 @@
     float:left;
     /* style="width:100% ; height:100%"> */
     background-image: url("https://i.imgur.com/z5N6Q55.png");
-   
+
   }
 
   .containerStream1 {
     height:50%;
     width:75%;
     float:left;
-    background-color:pink;
+    background-color:#6441A4;
   }
 
   .containerChat1 {
     height:50%;
     width:25%;
     float:right;
-    background-color:orange;
+    background-color:#6441A4;
   }
 
   .containerStream2 {
     height:50%;
     width:75%;
     float:left;
-    background-color:pink;
+    background-color:#6441A4;
   }
 
   .containerChat2 {
     height:50%;
     width:25%;
     float:right;
-    background-color:orange;
+    background-color:#6441A4;
   }
 
   .containerNavigation {
@@ -50,35 +50,35 @@
     height:100%;
     width:25%;
     float:left;
-    background-color:red;
+    background-color:#57437B;
   }
 
   .middle {
     height:100%;
     width:50%;
     float:left;
-    background-color:blue;
+    background-color:#9473D2;
   }
 
   .right {
     height:100%;
     width:25%;
     float:left;
-    background-color:red;
+    background-color:#57437B;
   }
 /* page 3 */
   .containerSlideshow {
     height:60%;
     width:100%;
     float:left;
-    background-color:purple;
+    background-color:#9473D2;
   }
 
   .containerInteractive {
     height:30%;
     width:100%;
     float:left;
-    background-color:red;
+    background-color:gray;
   }
 
 
@@ -86,7 +86,7 @@
     height:10%;
     width:100%;
     float:right;
-    background-color:cyan;
+    background-color:#A58CD2;
   }
 
 
